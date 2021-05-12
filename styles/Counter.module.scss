@@ -1,0 +1,44 @@
+@import "./colors.scss";
+
+.container {
+  padding: 80px;
+  h1 {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+
+  button {
+    margin: 16px;
+    background: $color-primary;
+    border-color: $color-primary;
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+    color: $color-white;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    outline: 0;
+    border-radius: 2px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    height: 32px;
+    line-height: 1.5715;
+    padding: 4px 15px;
+    position: relative;
+    text-align: center;
+    touch-action: manipulation;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    user-select: none;
+    white-space: nowrap;
+  }
+
+  button:hover {
+    background: $color-primary-light;
+    border-color: $color-primary-light;
+    color: $color-white;
+  }
+}
