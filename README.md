@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+This is a Counter implemented by Next.js + Redux + TypeScript + Scss
